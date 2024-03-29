@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link to="/" className={styles.brand}>
-        Tickle
+        Tickle.
       </Link>
       <div className={styles.navLinks}>
   <NavLink to="/" exact className={styles.navItem} activeClassName={styles.active}>Home</NavLink>

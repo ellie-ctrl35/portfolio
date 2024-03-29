@@ -17,8 +17,10 @@
 }
 .profile{
     height: 80%;
-    width: 45%;
-    background: red;
+    width: 35%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 .hello-text{
     color: #565a7f;
@@ -49,12 +51,69 @@ h2{
     color: #14104b;
 }
 .socials{
-    width: 80%;
+    width: 40%;
     height: 10%;
-    border: 1px solid #e84972;
     margin-top: 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+.social-icon:hover{
+    color: #e84972;
+   transition: 0.5s ease-in-out;
+   text-shadow: 
+   0 0 5px #35a6c1,  /* First color for glow */
+   0 0 10px #35a6c1, /* First color for larger glow */
+   0 0 15px #35a6c1, /* First color for even larger glow */
+   0 0 20px #af4e76, /* Second color for glow */
+   0 0 35px #af4e76, /* Second color for larger glow */
+   0 0 40px #af4e76, /* Second color for even larger glow */
+   0 0 50px #af4e76; /* Second color for maximum glow */
+}
+.profile-pic{
+    width: 80%;
+    height: 100%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .intro-text {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .profile {
+    animation: 1s ease-out 0s 1 slideInFromRight;
+  }
+  
