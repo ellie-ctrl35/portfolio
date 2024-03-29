@@ -1,0 +1,20 @@
+.container{
+    background-color: #14104b;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    font-family: 'Poppins';
+}
+.skill-container{
+ background: dodgerblue;
+ height: 90%;
+ width: 55%;
+}
+.skill-text{
+ background: yellow;
+ height: 65%;
+ width: 35%;
+}
