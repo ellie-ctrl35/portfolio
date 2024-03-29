@@ -1,0 +1,23 @@
+.neon-card {
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .neon-card-icon {
+    font-size: 40px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .neon-card-title {
+    font-size: 1.25rem; /* Adjust size as needed */
+    margin-bottom: 8px;
+  }
+  
+  .neon-card-description {
+    font-size: 1rem; /* Adjust size as needed */
+  }
+  
