@@ -11,12 +11,46 @@
 .intro-text{
     height: 80%;
     width: 45%;
-    background: dodgerblue;
     display: flex;
     flex-direction: column;
+    padding-left: 3%;
 }
 .profile{
     height: 80%;
     width: 45%;
     background: red;
+}
+.hello-text{
+    color: #565a7f;
+    font-size: 1.3rem;
+    margin: 0%;
+}
+.name{
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+h2{
+    color: #646b8f;
+    margin-top: 0rem;
+    font-size: 2rem;
+}
+.btn-git{
+    border: solid #e84972 2px;
+    width: 30%;
+    background: transparent;
+    height: 7%;
+    color: #e84972;
+    border-radius: 0.1rem;
+    font-family: 'Poppins';
+    transition: 1.5s;
+}
+.btn-git:hover{
+    background: #e84972;
+    color: #14104b;
+}
+.socials{
+    width: 80%;
+    height: 10%;
+    border: 1px solid #e84972;
+    margin-top: 15%;
 }
