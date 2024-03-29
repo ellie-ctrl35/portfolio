@@ -11,11 +11,17 @@
   
   .brand {
     font-weight: bold;
-    color: #F7DF1E; /* Adjusted for brand color */
-    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins font is loaded or fallback to sans-serif */
     margin-left: 4%;
-    font-family: 'Poppins';
+    background: linear-gradient(90deg, #35a6c1, #af4e76); /* Create gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text for WebKit browsers */
+    background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text color transparent to reveal the clipped background */
+    display: inline; /* Set the display to inline for gradient text effect */
+  /* Second color for maximum glow */
   }
+    
   
   .navLinks {
     display: flex;

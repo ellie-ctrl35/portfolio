@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link to="/" className={styles.brand}>
-        Su.
+        Tickle
       </Link>
       <div className={styles.navLinks}>
       <Link to="/" className={styles.navItem}>Home</Link>
