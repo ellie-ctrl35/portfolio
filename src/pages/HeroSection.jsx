@@ -1,18 +1,15 @@
 import React from "react";
-import styles from './Hero.module.css'
+import  './Hero.css'
 
 const HeroSection = () => {
-  return 
-  <div className={styles.container}>
-    <div className={styles.main}>
-        <div className="intro-text">
-
-        </div>
-        <div className="photo">
-
-        </div>
-    </div>
-  </div>;
+  return (
+  <div className='container'>
+   <div className="intro-text">
+    <h5>Hello! I'm</h5>
+    <h1>Emmanuel Nyatepe</h1>
+   </div>
+   <div className="profile"></div>
+  </div>)
 };
 
 export default HeroSection;
