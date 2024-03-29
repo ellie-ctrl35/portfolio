@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // If using React Router for navigation
+import { Link,NavLink } from 'react-router-dom'; // If using React Router for navigation
 import styles from './Navbar.module.css'; // Assuming you are using CSS modules
 
 const Navbar = () => {
@@ -9,13 +9,13 @@ const Navbar = () => {
         Tickle
       </Link>
       <div className={styles.navLinks}>
-      <Link to="/" className={styles.navItem}>Home</Link>
-        <Link to="/services" className={styles.navItem}>Services</Link>
-        <Link to="/projects" className={styles.navItem}>Projects</Link>
-        <Link to="/about" className={styles.navItem}>About Me</Link>
-        <Link to="/contact" className={styles.navItem}>Contact</Link>
-        <button className={styles.contactButton}>Resume</button>
-      </div>
+  <NavLink to="/" exact className={styles.navItem} activeClassName={styles.active}>Home</NavLink>
+  <NavLink to="/services" className={styles.navItem} activeClassName={styles.active}>Services</NavLink>
+  <NavLink to="/projects" className={styles.navItem} activeClassName={styles.active}>Projects</NavLink>
+  <NavLink to="/about" className={styles.navItem} activeClassName={styles.active}>About Me</NavLink>
+  <NavLink to="/contact" className={styles.navItem} activeClassName={styles.active}>Contact</NavLink>
+  <button className={styles.contactButton}>Resume</button>
+</div>
       
     </nav>
   );
