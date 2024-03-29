@@ -1,0 +1,42 @@
+/* components/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1E1E1E; /* Adjusted to match the screenshot */
+    color: white;
+  }
+  
+  .brand {
+    font-weight: bold;
+    color: #F7DF1E; /* Adjusted for brand color */
+  }
+  
+  .navLinks {
+    display: flex;
+  }
+  
+  .navItem {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #A4A4A4; /* Adjusted for nav link color */
+  }
+  
+  .navItem:hover {
+    color: white;
+  }
+  
+  .contactButton {
+    background-color: #E63946; /* Adjusted for button color */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .contactButton:hover {
+    background-color: #F1FAEE;
+    color: #E63946;
+  }
+  
