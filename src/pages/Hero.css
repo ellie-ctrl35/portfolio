@@ -53,4 +53,8 @@ h2{
     height: 10%;
     border: 1px solid #e84972;
     margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
