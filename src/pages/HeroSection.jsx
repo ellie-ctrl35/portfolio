@@ -4,7 +4,14 @@ import styles from './Hero.module.css'
 const HeroSection = () => {
   return 
   <div className={styles.container}>
-    HeroSection
+    <div className={styles.main}>
+        <div className="intro-text">
+
+        </div>
+        <div className="photo">
+
+        </div>
+    </div>
   </div>;
 };
 

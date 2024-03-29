@@ -28,15 +28,17 @@
   }
   
   .contactButton {
-    background-color: #E63946; /* Adjusted for button color */
-    color: white;
-    border: none;
+    background-color:transparent; /* Adjusted for button color */
+    color: #E63946;
+    border: 1px solid #E63946;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    border-radius: 0.1rem;
+    width: 8%;
   }
   
   .contactButton:hover {
-    background-color: #F1FAEE;
-    color: #E63946;
+    transform: scaleX(1.13);
+    transition: 0.2s;
   }
   

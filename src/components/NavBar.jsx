@@ -9,6 +9,7 @@ const Navbar = () => {
         Su.
       </Link>
       <div className={styles.navLinks}>
+      <Link to="/" className={styles.navItem}>Home</Link>
         <Link to="/services" className={styles.navItem}>Services</Link>
         <Link to="/projects" className={styles.navItem}>Projects</Link>
         <Link to="/about" className={styles.navItem}>About Me</Link>
