@@ -3,18 +3,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+   height: 10vh;
     background-color: #14104b; /* Adjusted to match the screenshot */
     color: white;
+    font-family: 'Poppins';
   }
   
   .brand {
     font-weight: bold;
     color: #F7DF1E; /* Adjusted for brand color */
+    text-decoration: none;
+    margin-left: 4%;
+    font-family: 'Poppins';
   }
   
   .navLinks {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 90%;
   }
   
   .navItem {
@@ -25,16 +33,20 @@
   
   .navItem:hover {
     color: white;
+    border-bottom: #E63946 3px solid;
+    transition: border-bottom 0.2s ease-in-out;
   }
   
   .contactButton {
     background-color:transparent; /* Adjusted for button color */
     color: #E63946;
-    border: 1px solid #E63946;
-    padding: 0.5rem 1rem;
+    border: #E63946 2px solid;
     cursor: pointer;
     border-radius: 0.1rem;
-    width: 8%;
+    width: 15%;
+    height: 60%;
+    margin-right: 1rem;
+    font-family: 'Poppins';
   }
   
   .contactButton:hover {
