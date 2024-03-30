@@ -20,4 +20,9 @@
   .neon-card-description {
     font-size: 1rem; /* Adjust size as needed */
   }
-  
+.header-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

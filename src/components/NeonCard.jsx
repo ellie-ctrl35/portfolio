@@ -9,8 +9,10 @@ const NeonCard = ({ Icon, title, description, gradientColors, shadowColors }) =>
 
   return (
     <div className="neon-card" style={backgroundStyle}>
-      {Icon && <Icon className="neon-card-icon" />}
-      <h3 className="neon-card-title">{title}</h3>
+      <div className='header-txt'>
+        {Icon && <Icon className="neon-card-icon" />}
+        <h3 className="neon-card-title">{title}</h3>
+      </div>
       <p className="neon-card-description">{description}</p>
     </div>
   );
