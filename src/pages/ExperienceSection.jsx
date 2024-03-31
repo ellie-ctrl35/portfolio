@@ -30,7 +30,16 @@ const ExperienceSection = () => {
       
      </div>
      <div className="skill-text">
+       <div className="skill-header">
+        <div className="dash"></div>
+        <h2 className="skheader-txt">
+          WHAT I DO
+        </h2>
+       </div>
+       <h1>Better Design <br />Better Experiences</h1>
+       <p className="explain">
 
+       </p>
      </div>
     </div>
   )
