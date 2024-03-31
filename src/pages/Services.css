@@ -9,9 +9,16 @@
     font-family: 'Poppins';
 }
 .skill-container{
- background: dodgerblue;
  height: 90%;
- width: 55%;
+ width: 50%;
+ display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards in a row */
+  gap: 0px; /* Space between cards */
+  justify-items: center; /* Center cards horizontally */
+  align-items: start; /* Align cards to the start vertically */
+   /* Padding around the grid */
+  max-width: 1200px; /* Max width of the grid */
+  margin: 0 auto; /* Center the grid horizontally */
 }
 .skill-text{
  background: yellow;

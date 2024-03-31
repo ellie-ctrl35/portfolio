@@ -9,11 +9,25 @@ const ExperienceSection = () => {
      <div className='skill-container'>
      <NeonCard
         Icon={HiGlobeAlt} // Replace with your chosen icon component
-        title="Web App"
+        title="Web Development"
         description="Lorem ipsum dolor sit amet..."
-        gradientColors={['#7928CA', '#FF0080']} // Your gradient colors
-        shadowColors={['#7928CA', '#FF0080']} // Your shadow colors
+        gradientColors={['#3b108c', '#20b7d4']} // Your gradient colors
       />
+      <NeonCard
+        Icon={HiGlobeAlt} // Replace with your chosen icon component
+        title="Mobile Development"
+        description="Lorem ipsum dolor sit amet... Lorem ipsumhj efvbjeklceklkxzklnc kllkdkmlkcv kle dvnc,mdn ckn ckl
+        ml fdknleklnklecklmkl mklklmv;lcklklvmlmklvklenvklnpocfk[pwmckocochibuihreoihponvkjbkjabiucniocniubiucijb
+          jodncpodpojmcioninckenciln"
+        gradientColors={['#4ea7cc', '#9d58fc']} // Your gradient colors// Your shadow colors
+      />
+      <NeonCard
+        Icon={HiGlobeAlt} // Replace with your chosen icon component
+        title="Desktop Development"
+        description="Lorem ipsum dolor sit amet..."
+        gradientColors={['#993b6f', '#410f92']} // Your gradient colors
+      />
+      
      </div>
      <div className="skill-text">
 

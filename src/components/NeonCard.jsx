@@ -1,10 +1,9 @@
 import React from 'react';
 import './NeonCard.css'; // Make sure to create a NeonCard.css file for styles
 
-const NeonCard = ({ Icon, title, description, gradientColors, shadowColors }) => {
+const NeonCard = ({ Icon, title, description, gradientColors }) => {
   const backgroundStyle = {
     background: `linear-gradient(${gradientColors.join(', ')})`,
-    boxShadow: shadowColors.map(color => `0 0 10px ${color}`).join(', '),
   };
 
   return (
