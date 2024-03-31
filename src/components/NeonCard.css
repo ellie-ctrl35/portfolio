@@ -6,6 +6,12 @@
     height: 60%;
     width: 90%;
     gap: 0;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.7px);
+border: 2px solid rgba(255, 255, 255, 0.12);
   }
   
   .neon-card-icon {
