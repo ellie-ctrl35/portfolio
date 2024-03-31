@@ -1,0 +1,23 @@
+.container{
+    background-color: #14104b;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    font-family: 'Poppins';
+}
+.contact-info-div{
+    height: 80%;
+    width: 48%;
+    background: dodgerblue;
+}
+.msg-input{
+    height: 80%;
+    width: 48%;
+    background-color: dodgerblue;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
