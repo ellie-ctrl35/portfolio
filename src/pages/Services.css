@@ -19,11 +19,13 @@
    /* Padding around the grid */
   max-width: 1200px; /* Max width of the grid */
   margin: 0 auto; /* Center the grid horizontally */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 .skill-text{
  height: 65%;
  width: 40%;
  margin-right: 2%;
+ animation: 1s ease-out 0s 1 slideInFromRight;
 }
 .skill-header{
   width: 90%;
@@ -46,4 +48,28 @@
 }
 .skill-text h1{
   margin-top: 0%;
+}
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
