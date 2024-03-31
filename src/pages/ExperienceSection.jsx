@@ -38,8 +38,9 @@ const ExperienceSection = () => {
        </div>
        <h1>Better Design <br />Better Experiences</h1>
        <p className="explain">
+  I craft unique digital experiences by blending modern aesthetics with clear <br /> functionality,ensuring users enjoy a seamless interface across all platforms. <br /> My dedication to innovation and attention to detail set the stage for <br /> solutions that are not only visually appealing but also user-friendly and efficient.
+</p>
 
-       </p>
      </div>
     </div>
   )
