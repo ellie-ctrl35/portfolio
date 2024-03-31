@@ -15,9 +15,23 @@
 }
 .msg-input{
     height: 80%;
-    width: 48%;
     background-color: dodgerblue;
+    width: 48%;
     padding: 0%;
     justify-content: center;
     align-items: center;
+}
+.svg{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 90%;
+}
+.msg-form{
+    position: absolute;
+    background-color: aqua;
+    width: 40vh;
+    height: 50vh;
+    top: 10%;
+    left: 30%;
 }
