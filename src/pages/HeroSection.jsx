@@ -2,6 +2,7 @@ import React from "react";
 import  './Hero.css'
 import { GitHub,Instagram,Mail,LinkedIn} from '@mui/icons-material';
 import Profile from '../images/profile.jpg'
+import GitHubCalender from "../components/GitHubCalender";
 
 const HeroSection = () => {
   return (
@@ -16,6 +17,9 @@ const HeroSection = () => {
      <Instagram className="social-icon"/>
      <Mail className="social-icon"/>
      <LinkedIn className="social-icon"/>
+    </div>
+    <div className="contribution-graph">
+      <GitHubCalender/>
     </div>
    </div>
    <div className="profile" style={{ animationName: 'slideInFromRight' }}>
