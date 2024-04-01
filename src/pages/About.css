@@ -24,4 +24,18 @@ font-family: 'Poppins';
     gap: 1rem;
     align-items: center;
     margin-left: 8%;
+    margin-bottom: 0%;
+}
+.lang{
+    margin-top: 0%;
+}
+.language-icons-div{
+    width: 98%;
+    height: 50%;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+  grid-template-rows: repeat(5, 1fr); /* Creates 5 rows, adjust as needed */
+  gap: 20px; /* Space between icons */
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
 }
