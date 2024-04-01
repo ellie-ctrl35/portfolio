@@ -7,7 +7,7 @@ import {
   Css3OriginalWordmark,
   DockerOriginal,
   DotNetOriginalWordmark,
-  ElectronOriginalWordmark,
+  ElectronOriginal,
   ExpressOriginalWordmark,
   FirebaseOriginalWordmark,
   GitOriginal,
@@ -68,13 +68,12 @@ const AboutSection = () => {
           creativity.
         </p>
         <div className="language-icons-div">
-          <AxiosPlainWordmark size={50} />
           <BootstrapOriginal size={50} />
           <CsharpOriginal size={50} />
           <Css3OriginalWordmark size={50} />
           <DockerOriginal size={50} />
           <DotNetOriginalWordmark size={50} />
-          <ElectronOriginalWordmark size={50} />
+          <ElectronOriginal size={50} />
           <ExpressOriginalWordmark size={50} />
           <FirebaseOriginalWordmark size={50} />
           <GitOriginal size={50} />

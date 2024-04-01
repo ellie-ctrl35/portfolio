@@ -30,11 +30,11 @@ font-family: 'Poppins';
     margin-top: 0%;
 }
 .language-icons-div{
-    width: 98%;
+    width: 90%;
     height: 50%;
     display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
-  grid-template-rows: repeat(5, 1fr); /* Creates 5 rows, adjust as needed */
+  grid-template-columns: repeat(5, 1fr); /* Creates 4 columns */
+  grid-template-rows: repeat(6, 1fr); /* Creates 5 rows, adjust as needed */
   gap: 20px; /* Space between icons */
   justify-items: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
