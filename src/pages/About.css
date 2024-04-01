@@ -11,10 +11,12 @@ font-family: 'Poppins';
 .about-container{
     width: 40%;
     height: 80%;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 .stack-container{
     width: 55%;
     height: 80%;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 }
 .header-title{
     width: 60%;
@@ -38,4 +40,26 @@ font-family: 'Poppins';
   gap: 20px; /* Space between icons */
   justify-items: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
 }
