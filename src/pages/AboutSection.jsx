@@ -27,7 +27,7 @@ import {
 const AboutSection = () => {
   return (
     <div className="container">
-      <div className="about-container">
+      <div className="about-container" style={{ animationName: 'slideInFromLeft' }}>
         <div className="header-title">
           <div className="dash"></div>
           <h3>About Me</h3>
@@ -53,7 +53,7 @@ const AboutSection = () => {
           software engineering{" "}
         </p>
       </div>
-      <div className="stack-container">
+      <div className="stack-container" style={{ animationName: 'slideInFromRight' }}>
         <div className="header-title">
           <div className="dash"></div>
           <h3>My Stack</h3>
