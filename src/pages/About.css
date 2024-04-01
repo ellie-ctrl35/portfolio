@@ -40,6 +40,7 @@ font-family: 'Poppins';
   gap: 20px; /* Space between icons */
   justify-items: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
+  margin-top: 7%;
 }
 
 @keyframes slideInFromLeft {
