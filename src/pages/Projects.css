@@ -1,10 +1,13 @@
-.container{
+.container2{
     background-color: #14104b;
     height: 90vh;
     display: flex;
     flex-direction: column;
     color: white;
     font-family: 'Poppins';
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 .project-nav{
     height: 10%;
@@ -14,11 +17,19 @@
     justify-content: space-between;
 }
 .project-header{
-    background: blue;
-    height: 10%;
-    width: 10%;
+    height: 90%;
+    width: 15%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 0.9rem;
+}
+.project-header .dash{
+    width: 20%;
+    height: 5%;
+    background: #e84972;
 }
 .project-nav ul{
     display: flex;

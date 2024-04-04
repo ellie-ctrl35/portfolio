@@ -7,7 +7,7 @@ const ProjectSection = () => {
     setSelectedTab(tab);
   };
   return (
-    <div className='container'>
+    <div className='container2'>
       <nav className='project-nav'>
         <div className="project-header">
           <div className="dash"></div>
@@ -21,7 +21,7 @@ const ProjectSection = () => {
         </ul>
       </nav>
       <div className="project-container">
-        
+
       </div>
     </div>
   )
