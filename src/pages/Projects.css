@@ -2,9 +2,37 @@
     background-color: #14104b;
     height: 90vh;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-evenly;
+    flex-direction: column;
     color: white;
     font-family: 'Poppins';
+}
+.project-nav{
+    height: 10%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project-header{
+    background: blue;
+    height: 10%;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.project-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 30%;
+    padding: 1%;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 90%;
+    height: 85%;
 }
