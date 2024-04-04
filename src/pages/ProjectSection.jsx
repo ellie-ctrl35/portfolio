@@ -34,7 +34,23 @@ const ProjectSection = () => {
           </li>
         </ul>
       </nav>
-      <div className="project-container"></div>
+      <div className="project-container">
+        {
+          selectedTab === "web" ? (
+            <div className="project-card">
+              
+            </div>
+          ) : selectedTab === "mobile" ? (
+            <div className="project-card">
+              
+            </div>
+          ) : (
+            <div className="project-card">
+              
+            </div>
+          )
+        }
+      </div>
     </div>
   );
 };

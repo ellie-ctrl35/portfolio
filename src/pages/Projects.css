@@ -41,10 +41,10 @@
 }
 
 .project-ul li {
-  /* Initial border style */
-  margin: 6px;
   cursor: pointer;
   transition: 1s;
+  height: 100%;
+  padding: 1%;
 }
 
 .project-ul li:hover {
