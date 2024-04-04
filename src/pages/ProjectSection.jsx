@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./Projects.css";
+import DesktopProjects from "../components/Projects/DesktopProjects";
+import MobileProjects from "../components/Projects/MobileProjects";
+import WebProjects from "../components/Projects/WebProjects";
 
 const ProjectSection = () => {
   const [selectedTab, setSelectedTab] = useState("web");
@@ -37,17 +40,11 @@ const ProjectSection = () => {
       <div className="project-container">
         {
           selectedTab === "web" ? (
-            <div className="project-card">
-              
-            </div>
+            <WebProjects />
           ) : selectedTab === "mobile" ? (
-            <div className="project-card">
-              
-            </div>
+            <MobileProjects/>
           ) : (
-            <div className="project-card">
-              
-            </div>
+            <DesktopProjects/>
           )
         }
       </div>
