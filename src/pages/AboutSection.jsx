@@ -85,7 +85,7 @@ const AboutSection = () => {
           <NextjsOriginalWordmark size={50} />
           <NodejsOriginalWordmark size={50} />
           <PostmanOriginalWordmark size={50} />
-          <PrismaOriginalWordmark size={50} />
+          <PrismaOriginalWordmark size={70} />
           <ReactOriginal size={50} />
           <UnityOriginal size={50} />
         </div>

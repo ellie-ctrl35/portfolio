@@ -6,7 +6,7 @@
     align-items: center;
     justify-content:space-evenly;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
 }
 .intro-text{
     height: 80%;
@@ -43,7 +43,7 @@ h2{
     height: 7%;
     color: #e84972;
     border-radius: 0.1rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     transition: 1.5s;
 }
 .btn-git:hover{
@@ -74,8 +74,8 @@ h2{
 .profile-pic{
     width: 80%;
     height: 100%;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 
@@ -89,7 +89,6 @@ h2{
 
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
       opacity: 0;
     }
     100% {
@@ -100,7 +99,6 @@ h2{
   
   @keyframes slideInFromRight {
     0% {
-      transform: translateX(100%);
       opacity: 0;
     }
     100% {
@@ -110,11 +108,11 @@ h2{
   }
   
   .intro-text {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: 3s ease-out 0s 1 slideInFromLeft;
   }
   
   .profile {
-    animation: 1s ease-out 0s 1 slideInFromRight;
+    animation: 3s ease-out 0s 1 slideInFromRight;
   }
   .contribution-graph{
     height: 30%;
