@@ -1,49 +1,65 @@
-.container2{
-    background-color: #14104b;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-family: 'Poppins';
-    align-self: center;
-    align-items: center;
-    justify-content: center;
+.container2 {
+  background-color: #14104b;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Poppins";
+  align-self: center;
+  align-items: center;
+  justify-content: center;
 }
-.project-nav{
-    height: 10%;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.project-nav {
+  height: 10%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.project-header{
-    height: 90%;
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-    font-size: 0.9rem;
+.project-header {
+  height: 90%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  font-size: 0.9rem;
 }
-.project-header .dash{
-    width: 20%;
-    height: 5%;
-    background: #e84972;
+.project-header .dash {
+  width: 20%;
+  height: 5%;
+  background: #e84972;
 }
-.project-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    width: 30%;
-    padding: 1%;
+.project-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 30%;
+  padding: 1%;
 }
-.project-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: red;
-    width: 90%;
-    height: 85%;
+
+.project-ul li {
+  /* Initial border style */
+  margin: 6px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.project-ul li:hover {
+  border-bottom: 2px solid pink; /* Change border color on hover */
+}
+
+.project-ul li[selected="true"] {
+  border-bottom-color: pink; /* Set border color for selected item */
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  width: 90%;
+  height: 85%;
 }
