@@ -10,7 +10,7 @@ const HeroSection = () => {
    <div className="intro-text" style={{ animationName: 'slideInFromLeft' }}>
     <h5 className="hello-text">Hello! I'm</h5>
     <h1 className="name">Emmanuel E. Nyatepe</h1>
-    <h2>Full Stack Developer</h2>
+    <h2>Full Stack Spftware Engineer </h2>
     <button className="btn-git">GET IN TOUCH</button>
     <div className="socials">
      <GitHub className="social-icon" size={60} color="white"/>
