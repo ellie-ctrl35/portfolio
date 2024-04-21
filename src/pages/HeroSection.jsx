@@ -25,7 +25,8 @@ const HeroSection = () => {
    <div className="profile" style={{ animationName: 'slideInFromRight' }}>
     <img className="profile-pic" alt="profile" src={Profile}/>
    </div>
-  </div>)
+  </div>
+  )
 };
 
 export default HeroSection;
