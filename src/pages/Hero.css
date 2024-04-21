@@ -120,12 +120,45 @@ h2{
   }
 
   @media only screen and (max-width: 480px) {
-    /* Styles for phones */
-    .container{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #af4e76;
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 150%; 
+    background: #e84972;
+    width: 100%;
+    }
+  
+    .intro-text {
+      width: 90%; /* Take full width */
+      text-align: center; /* Center align text */
+      background: #35a6c1;
+      top: 80%;
+      position: absolute;
+    }
+  
+    .profile {
+      width: 90vh; /* Take full width */
+      margin-bottom: 20px; /* Add some margin */
+      position: absolute;
+      height: 60%;
+      align-self: center;
+    }
+  
+    .socials {
+      width: 100%; /* Take full width */
+      margin-top: 20px; /* Add margin */
+    }
+  
+    .profile-pic {
+      width: 70%; /* Adjust size */
+      margin: 0 auto; /* Center align */
+      display: block; /* Remove default margin */
+    }
+  
+    .contribution-graph {
+      display: none; /* Hide on smaller screens */
     }
   }
   
