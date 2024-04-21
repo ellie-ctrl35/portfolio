@@ -124,9 +124,8 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
     height: 150%; 
-    background: #e84972;
     width: 100%;
     }
   
@@ -139,11 +138,14 @@ h2{
     }
   
     .profile {
-      width: 90vh; /* Take full width */
-      margin-bottom: 20px; /* Add some margin */
+      width: 70vh; /* Take full width */
       position: absolute;
-      height: 60%;
-      align-self: center;
+      height: 55%;
+      border-radius: 0;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   
     .socials {
@@ -152,9 +154,10 @@ h2{
     }
   
     .profile-pic {
-      width: 70%; /* Adjust size */
+      width: 100%; /* Adjust size */
       margin: 0 auto; /* Center align */
       display: block; /* Remove default margin */
+      border-radius: 0%;
     }
   
     .contribution-graph {
